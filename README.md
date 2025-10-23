@@ -13,6 +13,14 @@
 ✅ Training: 98.68%  
 ✅ Testing: 97.75%
 
+## 🎯 Live Demo
+🚀 **Try it Yourself!**  
+Enter any email text and instantly find out whether it’s **Spam** or **Not Spam**.  
+🧠 The model predicts results in real-time.
+
+🔗 **Live Demo:** [ https://huggingface.co/spaces/gaurav5005/spam-mail ]
+
+
 ## 🧩 Files
 - `spam_mail_model.pkl` → Trained ML model  
 - `vectorizer.pkl` → TF-IDF feature extractor  
@@ -34,6 +42,9 @@ Gaurav Yadav
 C.S.E | ML Enthusiast | E-commerce Developer 🛍️
 #MachineLearning #Python  #SpamDetection #AIProjects
 
+## Wep
+<img width="1505" height="316" alt="Screenshot 2025-10-23 030944" src="https://github.com/user-attachments/assets/e1dd348e-5cda-4f72-b26d-bf8b90b3dcb4" />
+<img width="1544" height="319" alt="Screenshot 2025-10-23 030656" src="https://github.com/user-attachments/assets/a0a16a00-d0a0-4950-bdd0-3c2e983b2200" />
 
 ## 💡 How to Use
 ```python
@@ -47,6 +58,9 @@ input_data = vectorizer.transform(mail)
 prediction = model.predict(input_data)
 
 print("✅ Ham Mail" if prediction[0]==1 else "🚫 Spam Mail")
+
+
+
 
 
 
